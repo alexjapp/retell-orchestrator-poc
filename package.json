@@ -1,0 +1,14 @@
+{
+  "name": "credential-service",
+  "version": "1.0.0",
+  "description": "Secure service to provide credential data.",
+  "main": "credential_service.js",
+  "scripts": {
+    "start": "node credential_service.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
